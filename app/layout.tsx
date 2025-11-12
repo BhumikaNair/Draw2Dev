@@ -8,16 +8,14 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Draw2Dev",
-  description:
-    "AI-powered tool to instantly convert your design wireframes into clean, production-ready code. Save hours of development time.",
+  description: "Turn wireframes into code",
   icons: {
     icon: "/favicon.ico",
   },
   metadataBase: new URL("https://draw-2-dev.vercel.app"),
   openGraph: {
     title: "Draw2Dev",
-    description:
-      "AI-powered tool to instantly convert your design wireframes into clean, production-ready code. Save hours of development time.",
+    description: "Turn wireframes into code",
     url: "https://draw-2-dev.vercel.app",
     siteName: "Draw2Dev",
     images: [
@@ -25,7 +23,7 @@ export const metadata: Metadata = {
         url: "https://draw-2-dev.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Draw2Dev - Convert Wireframes to Code",
+        alt: "Draw2Dev",
       },
     ],
     locale: "en_US",
@@ -34,8 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Draw2Dev",
-    description:
-      "AI-powered tool to instantly convert your design wireframes into clean, production-ready code. Save hours of development time.",
+    description: "Turn Wireframes Into Code",
     images: ["https://draw-2-dev.vercel.app/og-image.png"],
   },
 };
